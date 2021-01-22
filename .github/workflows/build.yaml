@@ -1,7 +1,7 @@
 name: django-helloworld
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   docker:
     runs-on: ubuntu-latest
